@@ -49,7 +49,6 @@ const commands = {
       }
     });
     for (const key in hashes) {
-      console.log({ key });
       if (!fs.existsSync(key)) {
         const target = path.join(
           config.outputDir,

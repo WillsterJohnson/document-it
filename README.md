@@ -187,3 +187,7 @@ standalone: true
 
 For an example project using this library, see the
 [examples folder](https://github.com/willster277/document-it/blob/main/examples/README.md).
+
+## License
+
+Document It is licensed under the [MIT License](./LICENSE)

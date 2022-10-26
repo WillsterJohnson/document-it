@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./dist/",
+    "rootDir": "./src/",
+    "declaration": true,
+    "strict": true,
+    "module": "CommonJS",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": true,
+    "sourceMap": false
+  },
+  "include": ["src/**/*"],
+}

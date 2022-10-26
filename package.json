@@ -1,0 +1,25 @@
+{
+  "name": "document-it",
+  "version": "0.1.1",
+  "author": "Will 'Willster' Johnson",
+  "license": "MIT",
+  "description": "A Node.js pandoc-wrapping library for declarative document generation.",
+  "main": "dist/index.js",
+  "bin": "dist/bin.js",
+  "type": "commonjs",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "pandoc-filter": "^2.1.0",
+    "yaml": "^2.1.3"
+  }
+}

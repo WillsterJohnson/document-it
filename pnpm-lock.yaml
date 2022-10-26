@@ -1,0 +1,38 @@
+lockfileVersion: 5.4
+
+specifiers:
+  pandoc-filter: ^2.1.0
+  typescript: ^4.8.4
+  yaml: ^2.1.3
+
+dependencies:
+  pandoc-filter: 2.1.0
+  yaml: 2.1.3
+
+devDependencies:
+  typescript: 4.8.4
+
+packages:
+
+  /get-stdin/7.0.0:
+    resolution: {integrity: sha512-zRKcywvrXlXsA0v0i9Io4KDRaAw7+a1ZpjRwl9Wox8PFlVCCHra7E9c4kqXCoCM9nR5tBkaTTZRBoCm60bFqTQ==}
+    engines: {node: '>=8'}
+    dev: false
+
+  /pandoc-filter/2.1.0:
+    resolution: {integrity: sha512-uE6RSbzR+WsiBZgHa6u4WfvNy3DeUKtLFFJBbq03DFMmlXrtvqyJuIS0jrxM6v1VEJUlaY5lu/Tb6v3hnINWkw==}
+    engines: {node: '>=7.6.0'}
+    dependencies:
+      get-stdin: 7.0.0
+    dev: false
+
+  /typescript/4.8.4:
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /yaml/2.1.3:
+    resolution: {integrity: sha512-AacA8nRULjKMX2DvWvOAdBZMOfQlypSFkjcOcu9FalllIDJ1kvlREzcdIZmidQUqqeMv7jorHjq2HlLv/+c2lg==}
+    engines: {node: '>= 14'}
+    dev: false

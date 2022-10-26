@@ -1,6 +1,6 @@
 {
   "name": "document-it",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "author": "Will 'Willster' Johnson",
   "license": "MIT",
   "description": "A Node.js pandoc-wrapping library for declarative document generation.",

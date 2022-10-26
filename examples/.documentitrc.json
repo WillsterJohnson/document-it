@@ -1,0 +1,6 @@
+{
+  "filterDir": "filters",
+  "sourceDir": "documents",
+  "sourceExt": ["md"],
+  "outputDir": "output"
+}

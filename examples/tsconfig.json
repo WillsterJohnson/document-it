@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./filters/",
+    "rootDir": "./filters-src/",
+    "declaration": true,
+    "strict": true,
+    // IMPORTANT: Pandoc filters only work in CJS!
+    "module": "CommonJS",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": true,
+    "sourceMap": false
+  }
+}

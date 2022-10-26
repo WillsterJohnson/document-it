@@ -1,0 +1,12 @@
+{
+  "name": "examples",
+  "scripts": {
+    "build:docit": "document-it convert",
+    "build:tsc": "tsc --build",
+    "build": "npm run build:tsc && npm run build:docit"
+  },
+  "devDependencies": {
+    "pandoc-filter": "^2.1.0",
+    "typescript": "^4.8.4"
+  }
+}

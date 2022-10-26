@@ -19,7 +19,7 @@ const commands = {
     let skipped = 0;
     let deletions = 0;
     await walkDir(config.sourceDir, async (filePath) => {
-      const shortPath = limitLength(path.relative(process.cwd(), filePath), "start", 20);
+      const shortPath = limitLength(path.relative(process.cwd(), filePath), "start", 50);
       const ext = path.extname(filePath).slice(1);
       if (config.sourceExt.includes(ext)) {
         const content = fs.readFileSync(filePath, "utf-8");

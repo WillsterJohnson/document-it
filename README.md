@@ -188,6 +188,10 @@ standalone: true
 For an example project using this library, see the
 [examples folder](https://github.com/willster277/document-it/blob/main/examples/README.md).
 
+If you want to download the example folder on it's own, you can use
+[Download Directory](https://download-directory.github.io/), or click here:
+[THIS LINK AUTOMATICALLY BEGINS THE DOWNLOAD](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fwillster277%2Fdocument-it%2Ftree%2Fmain%2Fexamples)
+
 ## License
 
 Document It is licensed under the [MIT License](./LICENSE)

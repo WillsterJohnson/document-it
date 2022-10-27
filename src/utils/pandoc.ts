@@ -55,8 +55,6 @@ const command = (...cmd: string[]) => child.execSync(cmd.join(" ")).toString();
 
 export function pandoc(params: PandocParams, ...additionalCliArgs: string[]) {
   const cliArgs = [`"${params.sourceFile}"`];
-  cliArgs.push(`-t ${params.targetFormat}`);
-
   // TARGET FILE
   let out = "";
   // source file w/o extension
